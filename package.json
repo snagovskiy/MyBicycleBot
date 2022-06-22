@@ -1,0 +1,20 @@
+{
+  "name": "bycycle",
+  "version": "1.0.0",
+  "description": "Bot for Telegram",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "author": "Alexander Snagovsky",
+  "license": "ISC",
+  "dependencies": {  
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
