@@ -1,5 +1,5 @@
 {
-  "name": "bycycle",
+  "name": "MyBicycleBot",
   "version": "1.0.0",
   "description": "Bot for Telegram",
   "main": "bot.js",
