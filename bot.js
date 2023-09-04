@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf')
 
 
-const bot = new Telegraf('5455584060:AAGFr2OL0SA-4Z4kkOZvfgKt2s12OlhUuOU')
+const bot = new Telegraf('secrets.BOT_TOKEN')
 bot.start((ctx) => ctx.reply(`Привет ${ctx.message.from.first_name}!`))
 bot.help((ctx) => ctx.reply('Отправь стикер!!'))
 bot.on('sticker', (ctx) => ctx.reply('👍'))
