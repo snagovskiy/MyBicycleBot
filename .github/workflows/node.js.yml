@@ -11,8 +11,7 @@ on:
 
 jobs:
   build:
-    env:
-      BOT_TOKE: ${{ secrets.BOT_TOKEN }}
+
     runs-on: ubuntu-latest
 
     strategy:
