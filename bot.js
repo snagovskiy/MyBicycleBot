@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf')
-require('dotenv').config()
+
 
 const bot = new Telegraf('${{secrets.BOT_TOKEN}}')
 bot.start((ctx) => ctx.reply(`Привет ${ctx.message.from.first_name}!`))
