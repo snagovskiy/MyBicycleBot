@@ -11,7 +11,8 @@ on:
 
 jobs:
   build:
-
+    run: |
+          echo "${{ secrets.BOT_TOKEN }}" > .env
     runs-on: ubuntu-latest
 
     strategy:
