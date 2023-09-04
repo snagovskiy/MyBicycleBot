@@ -3,8 +3,6 @@
 
 name: Node.js CI
 
-run: |
-  echo "${{ secrets.ENV_FILE }}" > .env
 on:
   push:
     branches: [ "master" ]
