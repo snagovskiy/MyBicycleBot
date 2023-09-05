@@ -31,4 +31,4 @@ jobs:
         echo "${{ secrets.BOT_TOKEN }}" > .env
     - run: npm ci
     - run: npm install
-    - run: npm start
+    - run: npm run dev
