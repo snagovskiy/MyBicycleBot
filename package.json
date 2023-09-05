@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {   
     "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start1": "node index.js"
   },
   "author": "Alexander Snagovsky",
   "license": "ISC",
