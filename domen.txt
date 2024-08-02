@@ -1,2 +1,2 @@
 google.com
-page.dev
+pages.dev
